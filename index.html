@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <title>Login - Form</title>
+</head>
+<body>
+    <img src="./images/logo.svg" alt="Logotipo" class="logo">
+    
+    <main class="center">
+
+        <section class="login">
+            <form>
+
+                <header>
+                    <div class="titulo">
+                        <img src="./images/log-in.svg" alt="imagem-login" class="log-in">
+                        <p class="font-poppins">Faca seu login</p>
+                    </div>
+                    <p class="font-roboto">Entre com suas informações de cadastro</p>
+                </header>
+
+                <section class="user-info">
+                    <label class="font-poppins medium text-base" for="email">E-mail
+                        <input id="email" class="font-roboto regular" type="email" name="email"
+                            placeholder="Digite seu e-mail">
+                    </label><br>
+
+                    <label class="font-poppins medium text-base" for="password">Senha
+                        <input id="password" class="font-roboto regular" type="password" name="password"
+                            placeholder="Digite sua senha">
+                    </label><br>
+
+                    </div>
+                </section>
+
+                <section class="user-login flex-center">
+                    <div class="checkbox flex-center">
+                        <input type="checkbox" name="save-user" id="save-user">
+                        <label class="font-roboto regular text-base" for="save-user">Lembre-me</label>
+                    </div>
+                    <a class="font-poppins semi-bold" id="forgot-password" href="#">Esqueci minha senha</a>
+                </section>
+
+                <button class="font-poppins semi-bold">Entrar</button>
+                <p class="font-poppins regular">Não tem uma conta?<a class="semi-bold" href="#">Registre-se</a></p>
+
+            </form>
+        </section>
+    </main>
+
+    <div class="side-image">
+        <img src="./images/side-image.jpg">
+    </div>
+
+</body>
+</html>
